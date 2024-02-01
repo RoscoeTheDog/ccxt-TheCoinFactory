@@ -79,6 +79,7 @@ from ccxt.base.errors import RequestTimeout                           # noqa: F4
 from ccxt.base.errors import ExchangeClosedByUser                     # noqa: F401
 from ccxt.base.errors import error_hierarchy                          # noqa: F401
 
+from ccxt.apolloxv1 import ApolloxV1
 from ccxt.ace import ace                                              # noqa: F401
 from ccxt.alpaca import alpaca                                        # noqa: F401
 from ccxt.ascendex import ascendex                                    # noqa: F401
@@ -181,6 +182,7 @@ from ccxt.zaif import zaif                                            # noqa: F4
 from ccxt.zonda import zonda                                          # noqa: F401
 
 exchanges = [
+	'apolloxv1',
     'ace',
     'alpaca',
     'ascendex',
