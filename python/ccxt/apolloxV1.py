@@ -5,7 +5,7 @@ import time
 from decimal import Decimal
 
 
-class ApolloxV1:
+class apolloxv1:
     EXCHANGE_ID = 'apolloxv1'
     NETWORK_ID = 'bsc'
     BASE_URL = 'https://fapi.apollox.finance'
