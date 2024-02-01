@@ -13,7 +13,6 @@ class apolloxv1:
     def __init__(self, *args, **kwargs):
         self.api_key = kwargs['apiKey']
         self.api_secret = kwargs['secret']
-        self.exchange_password = kwargs['password']
         self.markets = self.load_markets_raw()
 
 
